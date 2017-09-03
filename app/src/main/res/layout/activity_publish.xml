@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ed_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="输入id"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/ed_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="输入标题"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/ed_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="输入url"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交表单"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除数据"/>
+
+</LinearLayout>

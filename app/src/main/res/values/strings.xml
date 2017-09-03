@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">学安卓</string>
+    <string name="sucess">操作成功</string>
+    <string name="no_sucess">操作失败，请重试</string>
+</resources>
